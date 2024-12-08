@@ -1,0 +1,21 @@
+{
+  "name": "proyecto3",
+  "version": "1.0.0",
+  "description": "proyecto 3er parcial",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.19.0",
+    "mysql2": "^3.9.2",
+    "sequelize": "^6.37.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

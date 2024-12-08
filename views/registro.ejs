@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../public/css/registro.css">
+    <script src="registro.js"></script>
+    <title>Registro</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <center>
+                <a class="login">Regístrate</a>
+            </center>
+            <div class="inputBox">
+                <input type="text" required="required">
+                <span class="nombre" id="nombre">Nombre</span>
+            </div>
+            <div class="inputBox">
+                <input type="text" required="required">
+                <span class="apellidosRegistro" id="apellidosRegistro">Apellidos</span>
+            </div>
+            <div class="inputBox">
+                <input type="text" required="required">
+                <span class="user" id="usuarioRegistro">Usuario</span>
+            </div>
+            <div class="inputBox">
+                <input type="email" required="required">
+                <span class="emailRegistro" id="emailRegistro">Email</span>
+            </div>
+            <div class="inputBox">
+                <input type="password" id="passwordField" required="required" autocomplete="new-password">
+                <span id="contraseñaRegistro">Contraseña</span> <br />
+            </div>
+            <div class="inputBox">
+                <input type="number" required="required">
+                <span class="user nacimiento" id="nacimientoRegistro">Edad</span>
+            </div>
+            <div class="inputBox">
+                <select required="required" id="generoRegistro">
+                    <option value="" disabled selected>Selecciona tu género</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="femenino">Femenino</option>
+                    <option value="otro">Otro</option>
+                </select>
+            </div>
+            <div>
+                <a href="/login"><button class="back">Regresar</button></a> 
+                <a href="/login">
+                    <button class="enter" type="submit">Entrar</button>
+                </a>
+            </div>
+
+        </div>
+    </div>
+    <div class="triangulo-grande"></div>
+    <div class="triangulo-pequeno"></div>
+</body>
+
+</html>

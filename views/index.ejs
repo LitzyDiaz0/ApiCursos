@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina principal</title>
+    <link rel="stylesheet" href="../public/css/index.css">
+    <!-- linea de codigo para ponerle color a la cabecera movil -->
+    <meta name="theme-color" content="#white">
+</head>
+<body>
+<!-- NavBar -->
+    <%- include('./layout/nav.ejs');%>
+<!-- carrucel -->
+    <div class="carrucel">
+        <%- include('./layout/carrucel.ejs');%>
+    </div>
+        
+    <div class="selectcurso">
+        <p class="selection">Una amplia seleccion de cursos:</p>
+            <button id="opcion1" class="opcion">Opcion 1</button>
+            <button id="opcion2" class="opcion">Opcion 2</button>
+            <button id="opcion3" class="opcion">Opcion 3</button>
+            <button id="opcion4" class="opcion">Opcion 4</button>
+    </div>
+<!--Distintas categorias -->
+    <div class="categoria">
+        <%- include('./layout/categorias.ejs');%>
+    </div><br>
+    
+<!-- seccion de mas vendido -->
+    <div class="masvendido">
+        <span class="textmvendido">Lo mas popular</span>
+        <div class="container2">
+            <div class="category2">
+                <h2 class="">Categoria</h2>
+                <div class="circle"></div>
+                <h2 class="namecircle">Nombre del Curso 1</h2>
+                <button class="vermas">Ver más</button>
+            </div>
+            <div class="category2">
+                <h2 >Categoria</h2>
+                <div class="circle"></div>
+                <h2 class="namecircle">Nombre del Curso 2</h2>
+                <button class="vermas">Ver más</button>
+            </div>
+            <div class="category2">
+                <h2 >Categoria</h2>
+                <div class="circle"></div>
+                <h2 class="namecircle">Nombre del Curso 3</h2>
+                <button class="vermas">Ver más</button>
+            </div>
+            <div class="category2">
+                <h2 >Categoria</h2>
+                <div class="circle"></div>
+                <h2 class="namecircle">Nombre del Curso 4</h2>
+                <button class="vermas">Ver más</button>
+            </div>
+
+
+
+
+            
+        </div>
+    </div>
+
+<div class="quiensomos">
+    <div class="imgocolor">
+
+    </div>
+
+    <div class="textoquien">
+        <h2 class="tittlequien">¿Quiénes somos?</h2>
+        <p class="infoquien">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error, rem officia quaerat, deleniti atque et, consequuntur nihil optio cumque exercitationem temporibus facilis perspiciatis. Labore ab mollitia, possimus reiciendis in enim.</p>
+    </div>
+</div>
+
+<%- include('./layout/footer.ejs');%>
+
+
+</body>
+</html>
